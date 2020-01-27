@@ -1,0 +1,41 @@
+1- Dado un arreglo de numeros de 10 posiciones, ordena los numeros de forma ascendente y descendente
+2- Se debe validar que el parametro ingresado sea un arreglo
+3- NO se deben permitir 'String' en el arreglo
+
+ejemplo: ordenamiento([9,0,2,3,1,8,4,5,6,7])
+	
+	Ascendente: [0,1,2,3,4,5,6,7,8,9]
+	Descendente: [9,8,7,6,6,5,4,3,2,1,0]
+
+ejemplo: ordenamiento(1,2,3,4)
+
+	Error: el parametro ingresado no es un arreglo
+
+ejemplo: ordenamiento([1,'hola',2])
+
+	Error: se ha ingresado un parametro invalido en el arreglo, solo se permiten numeros
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dado el objeto: 
+
+{
+	ID: 
+		{
+		number: 
+			{
+			length: 1,
+			promise: true,
+			 data:
+				{
+				hint : 'JSON'
+				}
+			},
+		 name: 
+			{
+				first: random
+			}
+		}
+}
+
+Imprime el valor hint
